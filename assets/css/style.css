@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+header{
+  height: 60%;
+}
+
+.rates{
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+#service-rates p{
+  margin-top: 10px;
+}
+
+#service-rates h3{
+  height: 57px;
+  width: 500px;
+  margin: auto;
+  border: black solid 3px;
+  border-radius: 5px;
+  padding-top: 5px;
+}
