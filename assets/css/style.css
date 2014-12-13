@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5{
 
 h1{
   margin-bottom: 30px;
+  margin-top: 75px;
 }
 
 header{
@@ -20,23 +21,33 @@ header{
 
 .rates{
   margin: auto;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 #service-rates p{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #service-rates h3{
   height: 57px;
   width: 500px;
   margin: auto;
-  border: black solid 3px;
+  border: black solid 2px;
   border-radius: 5px;
   padding-top: 5px;
 }
 
-.top-bar{
-  background: gray;
-  opacity: 0.4;
+nav ul{
+  border-bottom: solid black 1px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 40px;
+}
+
+nav ul li a{
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
 }
