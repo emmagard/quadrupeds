@@ -1,65 +1,96 @@
 body{
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
   color: gray;
+  font-size: 2rem;
+}
+
+#about p{
+  line-height: 1.8rem;
+  color: black;
 }
 
 h1, h2, h3, h4, h5{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
-h1{
-  margin-bottom: 75px;
-  margin-top: 75px;
-  font-weight: bold;
-  font-size: 3rem;
+#my_nav{
+
+}
+
+#my_nav ul li{
+  display: inline;
+  padding: 40px;
+
+}
+
+#my_nav ul li a{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  z-index: 30;
 }
 
 header{
   height: 60%;
-  background: url(../img/logo.gif);
-  background-size: 100%
+  background: url(../img/IMG_5421.jpg) no-repeat;
+  background-size: 100%;
+
 }
 
-.rates{
+h1{
+  margin-bottom: 4.5%;
+  margin-top: 4.5%;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+#divider{
+  height: 15%;
+  background: #FF3030;
+}
+
+.rates-table{
   margin: auto;
-  margin-bottom: 35px;
+  margin-bottom: 7%;
 }
 
-#service-rates p{
-  margin-top: 20px;
-}
-
-#service-rates h3{
-
+#service-rates h4{
+  color: gray;
+  margin-bottom: 4%;
 }
 
 .img-right, .img-left{
-  margin-top: 52px;
-  margin-bottom: 35px;
-  border-radius: 10px;
-
+  /*margin-top: 52px;*/
+  margin-bottom: 7%;
+  margin-top: 6%;
+  border-radius: 2rem;
 }
 
-.text-left{
-  text-align: left;
+footer{
+  margin-top: 2.4%;
+  padding-top: 35px ;
+  padding-bottom: 10px;
+  background: #FF3030;
 }
 
-.text-left .rates{
-  float: left;
+footer h2, p{
+  color: white;
 }
 
-nav ul{
-  border-bottom: solid black 1px;
+footer p{
+  padding-bottom: 10px;
+  font-weight: 400;
 }
 
-nav ul li{
-  display: inline;
-  padding: 40px;
+footer i{
+  color: white;
 }
 
-nav ul li a{
-  color: black;
-  font-size: 25px;
-  font-weight: bold;
+#logo{
+  max-height: 40%;
+  max-width: 100%;
 }
+
