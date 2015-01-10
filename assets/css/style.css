@@ -26,11 +26,16 @@ h1, h2, h3, h4, h5{
 
 }
 
-#my_nav ul li a{
+#my_nav ul li :hover{
   color: white;
+}
+
+#my_nav ul li a{
+  color: #dbd9d9;
   font-size: 1.5rem;
   font-weight: 400;
   z-index: 30;
+
 }
 
 header{
@@ -50,6 +55,11 @@ h1{
 #divider{
   height: 15%;
   background: #FF3030;
+}
+
+#divider a{
+  margin: auto;
+  color: white;
 }
 
 .rates-table{
