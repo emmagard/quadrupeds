@@ -14,33 +14,9 @@ body{
   display: inline;
 }
 
-
-
 h1, h2, h3, h4, h5{
   font-family: 'Quicksand', sans-serif;
   /*font-family: 'Raleway', sans-serif;*/
-}
-
-#my_nav{
-
-}
-
-#my_nav ul li{
-  display: inline;
-  padding: 40px;
-
-}
-
-#my_nav ul li :hover{
-  color: white;
-}
-
-#my_nav ul li a{
-  color: #dbd9d9;
-  font-size: 1.5rem;
-  font-weight: 400;
-  z-index: 30;
-
 }
 
 header{
@@ -55,6 +31,15 @@ h1{
   margin-top: 2.5%;
   font-weight: bold;
   font-size: 3.5rem;
+}
+
+h1 a {
+  color: black;
+}
+
+h1 :hover{
+  color: black;
+  opacity: 0.6;
 }
 
 #about-header{
@@ -75,12 +60,24 @@ h1{
   color: black;
 }
 
-.about-anchor a {
+#about-more-info h5{
+  font-weight: bold;
+}
+
+#about-more-info i{
+  font-size: 2rem;
+}
+
+.about-anchor a{
   color: black;
 }
 
 .about-anchor :hover{
-  color: #323233;
+  opacity: 0.6;;
+}
+
+.staff-image{
+  border-radius: 1rem;
 }
 
 .rates-table{
@@ -100,24 +97,29 @@ h1{
   border-radius: 10rem;
 }
 
-footer{
-  margin-top: 2.4%;
-  padding-top: 35px ;
-  padding-bottom: 10px;
-  background: #FF3030;
+#contact-info p{
+  color: black;
 }
 
-footer h2, p{
-  color: white;
+#contact-info i{
+  font-size: 2rem;
+  color: black;
+}
+
+#contact-info a :hover{
+  opacity: 0.6;
+}
+
+footer{
+  margin-top: 2.4%;
+  padding-top: 60px ;
+  padding-bottom: 40px;
+  background: #FF3030;
 }
 
 footer p{
   padding-bottom: 10px;
   font-weight: 400;
-}
-
-footer i{
-  color: white;
 }
 
 #logo{
