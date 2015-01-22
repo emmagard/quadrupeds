@@ -81,6 +81,18 @@ h1 :hover{
   border-radius: 1rem;
 }
 
+#faqs{
+  margin-bottom: 30px;
+}
+#faqs h4{
+  font-weight: bold;
+}
+
+.association{
+  width: 136px;
+  margin-bottom: 40px;
+}
+
 .rates-table{
   margin: auto;
   margin-bottom: 7%;
@@ -89,6 +101,10 @@ h1 :hover{
 #service-rates h4{
   color: gray;
   margin-bottom: 4%;
+}
+
+#service-rates h1{
+  margin-bottom: 44.25px;
 }
 
 .img-right, .img-left{
@@ -112,7 +128,6 @@ h1 :hover{
 }
 
 footer{
-  margin-top: 2.4%;
   padding-top: 50px ;
   padding-bottom: 35px;
   background: #FF3030;
@@ -120,10 +135,21 @@ footer{
 
 footer p{
   font-weight: 400;
+  font-size: 1.1rem;
   color: white;
   margin-bottom: 0;
   font-style: 1.1rem;
+  margin-top: 2%;
+}
 
+footer i{
+  padding: 5px;
+  margin: 10px;
+  color: white;
+}
+
+footer a :hover{
+  color: #d5d7d8;
 }
 
 #logo{
@@ -131,3 +157,8 @@ footer p{
   max-width: 100%;
 }
 
+@media (max-width: 678px) and (max-height: 678px){
+  header{
+    height:40%;
+  }
+}

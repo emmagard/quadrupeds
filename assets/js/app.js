@@ -2,10 +2,10 @@ $(document).foundation();
 
 
 // when you click on the anchor tags in the about us section:
-var faqs = document.getElementById('faqs');
+
 var about = document.getElementById('about');
 var servicesAndRates  = document.getElementById('services-and-rates');
-var contact = document.getElementById('contact');
+
 
 var showText = function(){
   console.log("show text");
@@ -19,8 +19,8 @@ var showText = function(){
 
 };
 
-//faqs.onclick = showText;
+
 about.onclick = showText;
 servicesAndRates.onclick = showText;
-contact.onclick = showText;
+
 
