@@ -107,6 +107,7 @@ h1 :hover{
 
 #faqs{
   margin-bottom: 30px;
+  text-align: left;
 }
 #faqs h4{
   font-weight: bold;
@@ -152,8 +153,8 @@ h1 :hover{
 }
 
 footer{
-  padding-top: 50px ;
-  padding-bottom: 35px;
+  padding-top: 40px ;
+  padding-bottom: 30px;
   background: #FF3030;
 }
 
@@ -163,7 +164,7 @@ footer p{
   color: white;
   margin-bottom: 0;
   font-style: 1.1rem;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 footer i{
