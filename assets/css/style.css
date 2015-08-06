@@ -83,7 +83,7 @@ h1 :hover{
   margin: 30px auto;
   line-height: 1.8em;
   color: white;
-  font-size: 1.1em;
+  font-size: 16px;
   text-align: left;
   width: 90%;
   max-width: 700px;
@@ -177,10 +177,9 @@ footer{
 
 footer p{
   font-weight: 400;
-  font-size: 1.1em;
+  font-size: 20px;
   color: white;
   margin-bottom: 0;
-  font-style: 1.1em;
   margin-top: 1%;
 }
 
