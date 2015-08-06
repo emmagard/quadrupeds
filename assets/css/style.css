@@ -2,7 +2,7 @@ body{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   color: gray;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .hidden{
@@ -27,7 +27,7 @@ nav ul{
 
 nav ul li{
   display: inline-block;
-  font-size: 2rem;
+  font-size: 2em;
   padding: 5px 25px;
   color: white;
 }
@@ -56,7 +56,7 @@ h1{
   margin-bottom: 2.5%;
   margin-top: 2.5%;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3.5em;
   font-family: 'courier';
 }
 
@@ -81,9 +81,9 @@ h1 :hover{
 
 #about-header p{
   margin: 30px auto;
-  line-height: 1.8rem;
+  line-height: 1.8em;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   text-align: left;
   width: 90%;
   max-width: 700px;
@@ -102,7 +102,7 @@ h1 :hover{
 }
 
 #about-more-info i{
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .about-anchor a{
@@ -114,7 +114,7 @@ h1 :hover{
 }
 
 .staff-image{
-  border-radius: 1rem;
+  border-radius: 1em;
 }
 
 #faqs{
@@ -153,7 +153,7 @@ h1 :hover{
   /*margin-top: 52px;*/
   margin-bottom: 7%;
   margin-top: 6%;
-  border-radius: 10rem;
+  border-radius: 10em;
 }
 
 #contact-info p{
@@ -161,7 +161,7 @@ h1 :hover{
 }
 
 #contact-info i{
-  font-size: 2rem;
+  font-size: 2em;
   color: black;
 }
 
@@ -177,10 +177,10 @@ footer{
 
 footer p{
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   color: white;
   margin-bottom: 0;
-  font-style: 1.1rem;
+  font-style: 1.1em;
   margin-top: 1%;
 }
 
